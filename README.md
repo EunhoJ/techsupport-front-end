@@ -1,13 +1,68 @@
-# React + Vite
+# 📦 TechSupport-Front-End
+Este projeto é uma aplicação **Full Stack** utilizando **JavaScript**, com as tecnologias **React**, **Node.js**, **Express**, **JWT**, **Bcrypt** e **PostgreSQL**, focada em autenticação segura de usuários.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🧩 Tecnologias Utilizadas
 
-Currently, two official plugins are available:
+- **Frontend:**
+  - React
+  - TailWind CSS
+  - JavaScript
+  - Axios
+  - Context API (se aplicável)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Backend:**
+  - Node.js
+  - Express.js
+  - Bcrypt (para hashing de senhas)
+  - JSON Web Token (JWT) – com expiração de 1 dia
+  - PostgreSQL
+  - Prisma
 
-## Expanding the ESLint configuration
+## 🔐 Funcionalidades de Autenticação
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# os-front-end
+- Cadastro de usuário com senha criptografada usando **Bcrypt**
+- Login com geração de **JWT token**
+- Token com **duração de 1 Hora**
+- Proteção de rotas com middleware de autenticação
+- CRUD básico de usuários
+- Middleware de autorização via JWT
+
+### 📦 Estrutura de Pastas
+
+```
+projeto-full-stack-auth-app/
+├── backend/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── config/
+│   ├── app.js
+│   ├── server.js
+│   └── package.json
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
+├── .env
+└── README.md
+```
+
+🚧 Status
+
+Projeto em desenvolvimento...
+
+---
+
+## 👤 Equipe:
+- Cosmo Elton de Melo Alves
+- Anderson Henriques de Souza Moreira 
+- Adailton nascimento sousa 
+- Amanda Julia Campos
+- ⁠John Erick Silva Vieira
+- Charles Aragão Cardoso
